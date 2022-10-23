@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CleverBrainTest
+comment0.text=\r\n\ \ This\ is\ a\ testclass\ that\ checks\ that\ all\ the\ methods\ in\ the\r\n\ \ CleverBrain\ class\ work\ as\ expected.\r\n\r\n\ \ @author\ Nana\ Yaw\ Barimah\ Oteng\r\n\ \ @version\ (2022.03.31)\r\n
+comment1.params=
+comment1.target=CleverBrainTest()
+comment1.text=\r\n\ Creates\ a\ new\ CleverBrainTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testRateBoard()
+comment3.text=\r\n\ This\ is\ an\ example\ test\ case\ to\ see\ if\ the\ rateboard()\ method\r\n\ adds\ up\ all\ the\ heights\ of\ every\ column\ and\ divides\ \r\n\ it\ by\ the\ number\ of\ columns\ \r\n\ and\ returns\ this\ value\ as\ a\ double\ value.\r\n
+comment4.params=
+comment4.target=void\ testBestMoveCheckHole()
+comment4.text=\r\n\ This\ is\ an\ example\ test\ case\ to\ see\ if\ and\ L\ will\ plug\ up\ a\ hole\r\n\ when\ bestMove()\ is\ called.\ This\ is\ a\ testcase\ to\ ensure\ that\ a\ piece\r\n\ that\ should\ block\ a\ hole,\ will\ move\ into\ that\ hole.\r\n
+comment5.params=
+comment5.target=void\ testBestMoveCheckSquare()
+comment5.text=\r\n\ This\ is\ an\ example\ test\ case\ to\ see\ if\ an\ square\ will\ avoid\ a\ hole\ \r\n\ when\ bestMove()\ is\ called.\ This\ is\ a\ testcase\ to\ ensure\ that\ a\ piece\r\n\ that\ should\ avoid\ a\ hole,\ will\ avoid\ that\ hole.\r\n
+comment6.params=
+comment6.target=void\ testBestMoveCheckHeightLimit()
+comment6.text=\r\n\ This\ is\ an\ example\ test\ case\ to\ show\ that\ a\ piece\ wont't\ be\ placed\ if\ \r\n\ it\ is\ above\ the\ heightLimit,\ unless\ the\ board\ has\ no\ choice\ but\ to\ \r\n\ place\ it.\r\n
+numComments=7

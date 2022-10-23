@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CleverBrain
+comment0.text=\r\n\ \ This\ is\ a\ "brain"\ being\ designed\ to\ find\ a\ strategic\ way\r\n\ \ to\ play\ Tetris.\r\n\r\n\ \ @author\ Nana\ Yaw\ Barimah\ Oteng\ \r\n\ \ @version\ (2022.03.31)\r\n
+comment1.params=
+comment1.target=CleverBrain()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ CleverBrain\ object.\r\n
+comment2.params=board\ piece\ heightLimit
+comment2.target=student.tetris.Move\ bestMove(student.tetris.Board,\ student.tetris.Piece,\ int)
+comment2.text=\r\n\ This\ helps\ a\ tetris\ piece\ choose\ the\ right\ move.\r\n\ @param\ board\ represents\ the\ tetris\ board.\r\n\ @param\ piece\ represents\ a\ piece\ on\ the\ board.\r\n\ @param\ heightLimit\ reserves\ a\ certain\ portion\ at\ the\ top\ of\ a\ board\r\n\ for\ new\ pieces.\r\n\ @return\ returns\ the\ best\ move\ for\ the\ piece.\r\n
+comment3.params=board
+comment3.target=double\ rateBoard(student.tetris.Board)
+comment3.text=\r\n\ This\ is\ the\ board\ being\ checked\ to\ see\ how\ undesirable\r\n\ it\ is.\r\n\ @param\ board\ is\ the\ board\ being\ checked.\r\n\ @return\ returns\ the\ rating\ of\ the\ board.\r\n
+numComments=4
